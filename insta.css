@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 60rem;
+}
+form{
+    margin-top: 50px auto ;
+    width: 350px;
+    height: 410px;
+    border:1px solid rgb(219 219 219);
+    margin: 100px auto auto;
+    padding:40px;
+
+
+}
+.bottom{
+border: 1px solid rgb(219 219 219);
+width: 350px;
+height: 61px;
+margin: 10px auto auto;
+}
+.signup{
+    text-align: center;
+    margin:20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#000 ;
+    font-size: 3px;
+
+    
+}
+.insta{
+    display: block;
+    text-align: center;
+    margin:10px 0px 30px 0px ;
+    font-size: 20px;
+
+}
+input{
+    width: 100%;
+    padding: 10px 5px;
+    margin:3px 0px;
+    border:1px solid rgb(219 219 219);
+
+}
+button{
+    width: 100%;
+    padding: 9px;
+    margin-top: 9px ;
+    border-radius: 8px;
+    background-color:#53bdeb;;
+    color: #feffff;
+    border: none;
+    font-weight: bolder;
+}
+.up{
+    padding-left:3px;
+    color: #007bfc;
+    font-weight: bold;
+    font-size: 2px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+a{
+    
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+img[alt="microsoft"]{
+    
+    height: 43px;
+    width: 110px;
+    
+}
+img[alt="Gplay"]{
+   
+    height: 43px;
+    width: 134px;
+    margin-left: 500px;
+}
+.forgot{
+    text-align: center;
+    display: block;
+    color:rgb(0 55 107);
+    margin-top:10px;
+    font-size: 1rem;
+}
+.fb:hover{
+    color: black;
+}
+input:focus{
+    outline: none;
+}
+
+.fb{
+    text-align: center;
+    display: block;
+color: #007bfc;
+margin :30px auto 20px;
+font-weight: bold;
+font-weight: bolder;
+
+}
+.fa-facebook{
+    margin-right: 8px;
+}
+.hr{
+    width: 109px;
+    height: 2px;
+    border-top: 1px solid #737373;
+    display:inline-block;
+
+}
+.hr1
+{
+    margin-left: 6px;
+}
+.or{
+    color:rgb(115 115 115) ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin: 0px 8px 0px;
+    font-size: 1px;
+
+}
+span{
+    margin-top:30px;
+}
+.app{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1px;
+    margin:15px;
+}
