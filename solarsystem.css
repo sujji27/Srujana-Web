@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 100px;
+}
+body{
+    height: 200vh;
+    width: 100%;
+    background-image: url(./galaxy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+img[alt="sun"]{
+    width: 100px;
+    position: absolute;
+    left: 550px;
+    top: 250px;
+}
+.mercury{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: solid transparent 2px;
+    position: absolute;
+    left: 503px;
+    top: 204px;
+    animation: orbit 10s infinite linear;
+}
+img[alt="Mercury"]{
+    width: 50px;
+    position: absolute;
+    top: 170px;
+    left: 90px;
+    animation: rotate 10s  infinite linear;
+}
+img[alt="earth"]{
+    width: 150px;
+    position: absolute;
+    top: 180px;
+    left: 600px;
+    animation: rotate infinite 10s ease;
+
+}
+.earth{
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+    border: solid transparent 2px;
+    position: absolute;
+    left: 400px;
+    top: 100px;
+    animation: orbit 10s infinite linear;
+}
+img[alt="venus"]{
+    width: 30px;
+    position: absolute;
+    top: 200px;
+    left: 470px;
+    animation: rotate infinite 10s linear;
+}
+.venus{
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    border: solid transparent 2px;
+    position: absolute;
+    left: 450px;
+    top: 160px;
+    animation: orbit 10s infinite linear;
+}
+img[alt="moon"]{
+    width: 50px;
+    position: absolute;
+    top: 200px;
+    right: 200px;
+}
+.moon{
+    height: 40px ;
+    width: 50px;
+    border: solid white;
+    
+}
+@keyframes rotate {
+    to{transform: rotateZ(360deg);}
+}
+@keyframes orbit {
+    from{transform: (0%,0%) rotate(360deg) translate();}
+    to{transform:rotate(360deg) translate(-10%,-10%);}
+}   
